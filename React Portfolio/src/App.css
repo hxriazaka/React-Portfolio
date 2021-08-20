@@ -1,0 +1,243 @@
+body{
+  background-color: #02172D;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.tsparticles-canvas-el{
+  position: absolute;
+  z-index: 1;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/*-----------------------------NAVBAR-------------------------*/
+nav{
+  z-index: 100;
+}
+.navbar{
+  background-color: #02172D;
+}
+.navbar a{
+  font-size: 20px;
+  color: #BDC3C7;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.navbar a:hover{
+  color: #E5E7E9 ;
+}
+.fas{
+  color: white;
+}
+button{
+  color: transparent;
+}
+
+/*------------------------------HOME---------------------------*/
+.home{
+  height: 85vh;
+}
+.A1{
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 13%;
+  z-index: 2;
+  width: 800px;
+}
+.A1 h1{
+  font-size: 80px;
+  background: linear-gradient(90deg, #ffffff 0%, #8c9c99 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.A1 .typed-text{
+  color: white;
+  font-size: 50px;
+}
+.imgicon img{
+  padding-top: 30px;
+  padding-right: 25px;
+}
+
+/*----------------------------PROJECTS---------------------------*/
+
+.projects{
+  height: 80vh;
+}
+.projects h1{
+  font-size: 50px;
+  padding-top: 20%;
+  bottom: 0;
+  color: #E5E7E9;
+}
+.project1{
+  margin-top: 7%;
+  margin-bottom: 10%;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  width: 300px;
+}
+.projects a{
+  text-decoration: none;
+}
+.projects h2{
+  color: #ffffff;
+  padding-bottom: 25px;
+  padding-top: 15px;
+}
+.projects p{
+  color: rgb(212, 211, 211);
+}
+
+
+/*--------------------------------SKILLS-------------------------*/
+
+.skills{
+  height: 85vh;
+}
+.skills h1{
+  font-size: 50px;
+  padding-top: 15%;
+  bottom: 0;;
+  color: #E5E7E9;
+}
+.skills h2 {
+  margin-top: 50px;
+  color: white;
+}
+.skills h5{
+  padding-top: 15px;
+  color: #BDC3C7;
+}
+.skills .fes2 {
+  text-align: center;
+  display: flex;
+}
+.skills .s1{
+  cursor: pointer;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*---------------------------------------ABOUTME--------------------------------*/
+
+
+.about{
+  height: 60vh;
+}
+.about h1{
+  font-size: 50px;
+  padding-top: 15%;
+  color: #E5E7E9;
+}
+.about h5{
+  padding-top: 50px;
+  color: #BDC3C7;
+  width: 700px;
+}
+
+/*-----------------------------CONTACT-----------------------------*/
+
+
+.contact{
+  height: 20vh;
+}
+.contact h4{
+  color: white;
+}
+.contact h6{
+  color: #BDC3C7;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px){
+  .navbar{
+    background-color: #02172D;
+  }
+  .about h5{
+    width: 100%;
+  }
+  .A1{
+    width: 600px;
+    margin-top: 30%;
+  }
+  .A1 h1{
+    font-size: 70px;
+  }
+  .A1 .typed-text{
+    font-size: 50px;
+  }
+  .skills .s1{
+    cursor: pointer;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .skills{
+    height: 85vh;
+    display: block;
+  }
+  .A1{
+    width: 400px;
+  }
+  .A1 h1{
+    font-size: 60px;
+  }
+  .A1 .typed-text{
+    font-size: 30px;
+  }
+}
+@media (max-width: 520px){
+  .projects{
+    height: 100vh;
+  }
+  .skills{
+    height: 100vh;
+  }
+  .about{
+    height: 80vh;
+  }
+  .contact{
+    height: 30vh;
+  }
+  .A1{
+    width: 300px;
+  }
+  .imgicon img{
+    width: 30%;
+  }
+}
+@media (max-width: 400px){
+  .projects{
+    height: 100vh;
+  }
+  .skills{
+    height: 120vh;
+  }
+  .about{
+    height: 80vh;
+  }
+  .contact{
+    height: 30vh;
+  }
+}
+@media (max-width: 330px){
+  .about{
+    height: 100vh;
+  }
+  .contact{
+    height: 30vh;
+  }
+}
+
